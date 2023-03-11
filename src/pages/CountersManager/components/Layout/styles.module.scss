@@ -1,0 +1,26 @@
+.wrapper {
+    padding-left: 15px;
+}
+
+.countersContainerArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    color: white;
+    background-color:hotpink;
+    border-radius: 10px;
+    padding: 5px;
+    border-color:indianred;
+
+    &:hover {
+        background-color: darkorchid;
+        border-color: darkorchid;
+    }
+}
