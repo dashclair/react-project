@@ -9,6 +9,7 @@ const Header = () => {
             <Link to = {ROUTE_NAMES.COUNTER} className = {styles.navLink}>Counter</Link>
             <Link to = {ROUTE_NAMES.FUNCTIONAL_COUNTER} className = {styles.navLink}>Functional counter</Link>
             <Link to = {ROUTE_NAMES.COUNTERS_MANAGER} className = {styles.navLink}> Counters Manager</Link>
+            <Link to = {ROUTE_NAMES.CHECK_LIST} className = {styles.navLink}> TO DO</Link>
         </div>
     )
 }
